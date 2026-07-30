@@ -1,4 +1,7 @@
-# Neurix
+<h1>
+  <img src="Assets/neurix.png" alt="Neurix Icon" width="40" align="center">
+  Neurix
+</h1>
 
 ### An offline note-taking application for Windows 10 and 11.
 
