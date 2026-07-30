@@ -38,10 +38,10 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 
 <table>
   <tr>
-    <th>Primary</th>
-    <th>Secondary</th>
-    <th>Accent</th>
+    <th>Background</th>
+    <th>Heading</th>
     <th>Text</th>
+    <th>Borders</th>
   </tr>
   <tr align="center">
     <td>
