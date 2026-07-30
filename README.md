@@ -23,6 +23,17 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 - Interactive checklists
 - Runs completely offline
 
+## Supported Markdown
+
+- Headings (`#`, `##`, `###`)
+- Bold and italic text (`*italic*/**bold**/***bold+italic***`)
+- Underline (`__text__`)
+- Hyperlinks (anything starting with https:// or https://)
+- Link to another note/category (`/<notename>/`)
+- Checklists (`/checkbox` with enter)
+
+> More Markdown features will be added in future updates.
+
 <h2>Some Custom Themes I Like</h2>
 
 <table>
