@@ -109,4 +109,4 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 
 ## Contributing
 
-If you encounter a bug or have a feature request, you can open an issue in this repository.
+If you encounter a bug or have a feature request, feel free to open an issue in this repository.
