@@ -81,6 +81,6 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 
 ## Contributing
 
-Neurix is still under development. Suggestions, bug reports, and pull requests are welcome.
+Suggestions, bug reports, and pull requests are welcome.
 
 > Note: This README reflects the current state of the project and will be updated as new features are added.
