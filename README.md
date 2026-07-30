@@ -81,6 +81,6 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 
 ## Contributing
 
-Suggestions, bug reports, and pull requests are welcome.
+If you encounter a bug or have a feature request, please open an issue in this repository.
 
 > Note: This README reflects the current state of the project and will be updated as new features are added.
