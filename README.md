@@ -15,13 +15,10 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 ## Current Features
 
 - Write and edit Markdown notes
-- Live Markdown preview
-- Local Markdown file storage
 - Light, dark, and custom themes
 - Pin important notes
 - Search notes
 - Drag and drop images into notes
-- Interactive checklists
 - Notes encrypted using Windows DPAPI
 - Runs completely offline
   
