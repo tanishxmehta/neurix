@@ -52,8 +52,6 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
   </tr>
 </table>
 
-> This list reflects the features currently supported by the application.
-
 ## Built With
 
 - C#
@@ -63,3 +61,5 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 - ## Contributing
 
 Neurix is still under development. Suggestions, bug reports, and pull requests are welcome.
+
+> This list reflects the features currently supported by the application.
