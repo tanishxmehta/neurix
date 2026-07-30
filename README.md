@@ -8,7 +8,7 @@
 Neurix stores your notes locally on your computer. It doesn't require an internet connection, cloud account, or external database. Notes are stored as Markdown files and can be edited or previewed directly within the application.
 
 <p align="center">
-  <img src="Assets/dashboardapp.png" width="850">
+  <img src="Assets/dashboard.png" width="850">
 </p>
 
 ## Why I made this
