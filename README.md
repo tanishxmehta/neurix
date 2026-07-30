@@ -2,7 +2,7 @@
 
 ### An offline note-taking application for Windows 10 and 11.
 
-Neurix stores your notes locally on your computer. It doesn't require an internet connection, cloud account, or external database. Notes are saved as Markdown files and can be edited or previewed directly inside the application.
+Neurix stores your notes locally on your computer. It doesn't require an internet connection, cloud account, or external database. Notes are stored as Markdown files and can be edited or previewed directly within the application.
 
 <p align="center">
   <img src="Assets/dashboardapp.png" width="850">
@@ -14,24 +14,27 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 
 ## Current Features
 
-- Markdown editing
-- Live preview
-- Light, Dark and Custom themes
-- Pin notes
-- Search notes
+- Write and edit Markdown notes
+- Live Markdown preview
+- Light, dark, and custom themes
+- Pin important notes
+- Search notes instantly
 - Drag and drop images
 - Interactive checklists
-- Encrypted with DPAPI
+- Notes encrypted using Windows DPAPI
 - Runs completely offline
 
-## Supported Markdown
+## Supported Syntax
 
 - Headings (`#`, `##`, `###`)
 - Bold and italic text (`*italic*/**bold**/***bold+italic***`)
 - Underline (`__underline__`)
-- Hyperlinks (`starting with https:// or https://`)
-- Link to another note/category (`/<note/category-name>/`)
-- Checklists (`/checkbox` with enter)
+- Hyperlinks (`http://` or `https://`)
+- Links to notes or categories (`/<note-or-category>/`)
+- Interactive checklists
+  - `/checkbox` + Enter
+  - `/checkbox.true`
+  - `/checkbox.false`
 
 ## Some Custom Themes I Like
 
@@ -78,8 +81,8 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 - .NET 10
 - WPF
 
-- ## Contributing
+## Contributing
 
 Neurix is still under development. Suggestions, bug reports, and pull requests are welcome.
 
-> This list reflects the features currently supported by the application.
+> Note: This README reflects the current state of the project and will be updated as new features are added.
