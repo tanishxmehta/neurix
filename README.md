@@ -11,7 +11,7 @@ Neurix stores your notes locally on your computer. It doesn't require an interne
   <img src="Assets/dashboardapp.png" width="850">
 </p>
 
-## Why I made it
+## Why I made this
 
 I wanted a note-taking application that was lightweight, fast, and fully local. Most note-taking apps either depended on cloud services, felt too heavy, or included features I didn't need. Neurix is my attempt at building something simple that focuses on writing and keeping notes organized while remaining completely offline.
 
