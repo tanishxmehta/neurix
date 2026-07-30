@@ -16,13 +16,43 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 
 - Markdown editing
 - Live preview
-- Light and Dark themes
-- Local Markdown file storage
+- Light, Dark and Custom themes
 - Pin notes
 - Search notes
 - Drag and drop images
 - Interactive checklists
 - Runs completely offline
+
+<h2>Some Custom Themes I Like</h2>
+
+<table>
+  <tr>
+    <th>Primary</th>
+    <th>Secondary</th>
+    <th>Accent</th>
+    <th>Text</th>
+  </tr>
+  <tr align="center">
+    <td>
+      <div style="width:60px;height:60px;background:#202020;"></div>
+      <code>#202020</code>
+    </td>
+    <td>
+      <div style="width:60px;height:60px;background:#2D2D2D;"></div>
+      <code>#2D2D2D</code>
+    </td>
+    <td>
+      <div style="width:60px;height:60px;background:#8A5CF6;"></div>
+      <code>#8A5CF6</code>
+    </td>
+    <td>
+      <div style="width:60px;height:60px;background:#F2F2F2;"></div>
+      <code>#F2F2F2</code>
+    </td>
+  </tr>
+</table>
+
+> This list reflects the features currently supported by the application.
 
 ## Built With
 
@@ -30,4 +60,6 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 - .NET 10
 - WPF
 
-Neurix is still under active development, and more features will be added over time.
+- ## Contributing
+
+Neurix is still under development. Suggestions, bug reports, and pull requests are welcome.
