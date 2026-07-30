@@ -33,7 +33,7 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 - Link to another note/category (`/<note/category-name>/`)
 - Checklists (`/checkbox` with enter)
 
-<h2>Some Custom Themes I Like</h2>
+## Some Custom Themes I Like
 
 <table>
   <tr>
