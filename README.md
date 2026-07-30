@@ -48,7 +48,7 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 
   <tr align="center">
     <td>
-      <img src="Assets/dashboardapp.png" width="220">
+      <img src="Assets/Themes/blue.png" width="220">
     </td>
     <td>
       <div style="width:60px;height:60px;background:#8A5CF6;margin:auto;border:1px solid #444;"></div>
