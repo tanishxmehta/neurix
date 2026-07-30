@@ -27,9 +27,9 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 
 - Headings (`#`, `##`, `###`)
 - Bold and italic text (`*italic*/**bold**/***bold+italic***`)
-- Underline (`__text__`)
-- Hyperlinks (anything starting with https:// or https://)
-- Link to another note/category (`/<notename>/`)
+- Underline (`__underline__`)
+- Hyperlinks (`starting with https:// or https://`)
+- Link to another note/category (`/<note/category-name>/`)
 - Checklists (`/checkbox` with enter)
 
 > More Markdown features will be added in future updates.
