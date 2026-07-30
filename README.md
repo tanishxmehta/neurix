@@ -27,7 +27,7 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 ## Built With
 
 - C#
-- .NET
+- .NET 10
 - WPF
 
 Neurix is still under active development, and more features will be added over time.
