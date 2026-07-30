@@ -51,7 +51,7 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 
   <tr align="center">
     <td>
-      <img src="Assets/Themes/blue.png" width="100px">
+      <img src="Assets/Themes/blue.png" width="100%">
     </td>
     <td>
       <div style="width:60px;height:60px;margin:auto;border:1px solid #444;"></div>
@@ -76,7 +76,7 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
   </tr>
   <tr align="center">
     <td>
-      <img src="Assets/Themes/red.png" width="100px">
+      <img src="Assets/Themes/red.png" width="100%">
     </td>
     <td>
       <div style="width:60px;height:60px;margin:auto;border:1px solid #444;"></div>
