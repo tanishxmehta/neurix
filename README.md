@@ -21,6 +21,7 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 - Search notes
 - Drag and drop images
 - Interactive checklists
+- Encrypted with DPAPI
 - Runs completely offline
 
 ## Supported Markdown
