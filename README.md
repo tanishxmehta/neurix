@@ -3,3 +3,4 @@
 <p align="center">
   <img src="Assets/dashboardapp.png" width="850">
 </p>
+Neurix exists because I wanted a note-taking app that was lightweight, fast, fully local, and truly mine. No external databases, no unnecessary complexity, just a simple place to write, organize, and access notes whenever needed.
