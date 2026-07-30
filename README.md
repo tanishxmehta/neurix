@@ -16,20 +16,21 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 
 - Write and edit Markdown notes
 - Live Markdown preview
+- Local Markdown file storage
 - Light, dark, and custom themes
 - Pin important notes
-- Search notes instantly
-- Drag and drop images
+- Search notes
+- Drag and drop images into notes
 - Interactive checklists
 - Notes encrypted using Windows DPAPI
 - Runs completely offline
-
+  
 ## Supported Syntax
 
 - Headings (`#`, `##`, `###`)
-- Bold and italic text (`*italic*/**bold**/***bold+italic***`)
+- Bold and italic text (`*italic*`, `**bold**`, `***bold italic***`)
 - Underline (`__underline__`)
-- Hyperlinks (`http://` or `https://`)
+- Hyperlinks (URLs)
 - Links to notes or categories (`/<note-or-category>/`)
 - Interactive checklists
   - `/checkbox` + Enter
@@ -79,7 +80,7 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
 
 - C#
 - .NET 10
-- WPF
+- WPF (Windows Presentation Foundation)
 
 ## Contributing
 
