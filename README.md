@@ -51,7 +51,6 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
     <td>
       <img src="Assets/dashboardapp.png" width="220">
     </td>
-    
     <td>
       <div style="width:60px;height:60px;background:#8A5CF6;margin:auto;border:1px solid #444;"></div>
       <code>#8A5CF6</code>
@@ -60,23 +59,18 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
       <div style="width:60px;height:60px;background:#101018;margin:auto;border:1px solid #444;"></div>
       <code>#101018</code>
     </td>
-
     <td>
       <div style="width:60px;height:60px;background:#576CFD;margin:auto;border:1px solid #444;"></div>
       <code>#576CFD</code>
     </td>
-
     <td>
       <div style="width:60px;height:60px;background:#CDD6F4;margin:auto;border:1px solid #444;"></div>
       <code>#CDD6F4</code>
     </td>
-
     <td>
       <div style="width:60px;height:60px;background:#252525;margin:auto;border:1px solid #444;"></div>
       <code>#252525</code>
     </td>
-
-    
   </tr>
 </table>
 
