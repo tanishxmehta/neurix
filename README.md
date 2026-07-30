@@ -53,7 +53,7 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
     </td>
     <td>
       <div style="width:60px;height:60px;background:#8A5CF6;margin:auto;border:1px solid #444;"></div>
-      <code>#8A5CF6</code>
+      <code>Blue</code>
     </td>
     <td>
       <div style="width:60px;height:60px;background:#101018;margin:auto;border:1px solid #444;"></div>
