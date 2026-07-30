@@ -74,6 +74,31 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
       <code>#252525</code>
     </td>
   </tr>
+  <tr align="center">
+    <td>
+      <img src="Assets/Themes/red.png" width="220">
+    </td>
+    <td>
+      <div style="width:60px;height:60px;margin:auto;border:1px solid #444;"></div>
+      <code>Red</code>
+    </td>
+    <td>
+      <div style="width:60px;height:60px;margin:auto;border:1px solid #444;"></div>
+      <code>#090303</code>
+    </td>
+    <td>
+      <div style="width:60px;height:60px;margin:auto;border:1px solid #444;"></div>
+      <code>#F11B1B</code>
+    </td>
+    <td>
+      <div style="width:60px;height:60px;margin:auto;border:1px solid #444;"></div>
+      <code>#FFF4F4</code>
+    </td>
+    <td>
+      <div style="width:60px;height:60px;margin:auto;border:1px solid #444;"></div>
+      <code>#3A1F1F</code>
+    </td>
+  </tr>
 </table>
 
 ## Built With
