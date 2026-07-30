@@ -46,19 +46,19 @@ I wanted a note-taking application that was lightweight, fast, and fully local. 
   <tr align="center">
     <td>
       <div style="width:60px;height:60px;background:#202020;"></div>
-      <code>#202020</code>
+      <code>#101018</code>
     </td>
     <td>
       <div style="width:60px;height:60px;background:#2D2D2D;"></div>
-      <code>#2D2D2D</code>
+      <code>#576CFD</code>
     </td>
     <td>
       <div style="width:60px;height:60px;background:#8A5CF6;"></div>
-      <code>#8A5CF6</code>
+      <code>#CDD6F4</code>
     </td>
     <td>
       <div style="width:60px;height:60px;background:#F2F2F2;"></div>
-      <code>#F2F2F2</code>
+      <code>#252525</code>
     </td>
   </tr>
 </table>
