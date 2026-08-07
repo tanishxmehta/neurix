@@ -194,8 +194,7 @@
     transition: background 0.2s ease, color 0.2s ease;
   }
   .mock-titlebar-search:hover{
-    background: rgba(255,255,255,0.08);
-    color: var(--text-hi);
+    color: var(--accent-soft);
   }
   .mock-titlebar-search svg{ width:13px; height:13px; }
   .mock-titlebar-sep{
@@ -216,8 +215,7 @@
     transition: background 0.2s ease, color 0.2s ease;
   }
   .win-btn svg{ width:9px; height:9px; }
-  .win-btn.close:hover{ background: #e81123; color:white; }
-  .win-btn.min:hover, .win-btn.max:hover{ background: rgba(255,255,255,0.08); color: var(--text-hi); }
+  .win-btn.min:hover, .win-btn.max:hover, .win-btn.close:hover{ color: var(--accent-soft); }
   .mock-lock{
     margin-left:auto;
     display:flex; align-items:center; gap:6px;
@@ -261,9 +259,7 @@
   }
   .mock-nav-item:hover{
     background: rgba(255,255,255,0.06);
-    color: var(--text-hi);
   }
-  .mock-nav-item:hover svg{ color: var(--text-hi); }
   .mock-nav-item svg{ width:12px; height:12px; flex-shrink:0; color: var(--text-low); transition: color 0.2s ease; }
   .mock-nav-divider{
     height:1px; background: var(--line);
@@ -305,6 +301,7 @@
     padding: 5px 4px 5px 16px;
     margin-left: 10px;
     border-radius: 5px;
+    color: #fff;
     font-family: var(--sans);
     white-space: nowrap;
     overflow: hidden;
@@ -329,8 +326,16 @@
   .mock-h{
     font-family: var(--serif);
     font-size: 21px;
+    line-height: 1.2;
     color: var(--text-hi);
-    margin-bottom: 8px;
+    margin-bottom: 2px;
+    transition: color 0.2s ease;
+  }
+  .mock-h.note-open{
+    color: var(--accent);
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 16px;
   }
   .mock-empty-sub{
     font-size: 11.5px;
@@ -646,7 +651,7 @@
         <div class="mock-body">
           <div class="mock-sidebar">
             <div class="mock-nav">
-              <div class="mock-nav-item" onclick="openNote(this, 'Evening Thoughts', &quot;It's empty in here, pin something, or enable show recent notes in settings. Though it feels good like this too.&quot;, true)">
+              <div class="mock-nav-item" onclick="openNote(this, 'Evening Thoughts', &quot;It's empty in here, pin something, or enable show recent notes in settings. Though it feels good like this too.&quot;, true, false)">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
                 Home
               </div>
@@ -666,10 +671,10 @@
                 To - Do
               </div>
               <div class="mock-notes" id="todo-notes">
-                <div class="mock-note-item" onclick="openNote(this, 'Finish book', 'Draft the outline first, then write straight through without editing. Save the polish for tomorrow.')">
+                <div class="mock-note-item" onclick="openNote(this, 'Finish book', 'Draft the outline first, then write straight through without editing. Save the polish for tomorrow.', false, true)">
                    Finish book
                 </div>
-                <div class="mock-note-item" onclick="openNote(this, 'Reply emails', 'Two left in the inbox, both need a real answer, not a quick one-liner.')">
+                <div class="mock-note-item" onclick="openNote(this, 'Reply emails', 'Two left in the inbox, both need a real answer, not a quick one-liner.', false, true)">
                    Reply emails
                 </div>
               </div>
@@ -679,10 +684,10 @@
                 Notes
               </div>
               <div class="mock-notes" id="notes-notes">
-                <div class="mock-note-item" onclick="openNote(this, 'Waiting...', 'I hope she gets back soon. I have a few things to tell her, and I want to hear what she has to say too.')">
+                <div class="mock-note-item" onclick="openNote(this, 'Waiting...', 'I hope she gets back soon. I have a few things to tell her, and I want to hear what she has to say too.', false, true)">
                    Waiting...
                 </div>
-                <div class="mock-note-item" onclick="openNote(this, 'Reading list', 'Currently on: essays about attention. Next up: journal notes on focus.')">
+                <div class="mock-note-item" onclick="openNote(this, 'Reading list', 'Currently on: essays about attention. Next up: journal notes on focus.', false, true)">
                   Reading list
                 </div>
               </div>
@@ -835,10 +840,12 @@
     notes.classList.toggle('open');
   }
 
-  function openNote(el, title, body, showGraphic){
+  function openNote(el, title, body, showGraphic, isNote){
     // document.querySelectorAll('.mock-note-item.active').forEach(function(n){ n.classList.remove('active'); });
  // el.classList.add('active');
-    document.getElementById('mock-content-title').textContent = title;
+    var titleEl = document.getElementById('mock-content-title');
+    titleEl.textContent = title;
+    titleEl.classList.toggle('note-open', !!isNote);
     document.getElementById('mock-content-sub').textContent = body;
     document.getElementById('mock-content-graphic').style.display = showGraphic ? 'flex' : 'none';
   }
