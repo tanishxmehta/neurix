@@ -836,8 +836,8 @@
   }
 
   function openNote(el, title, body, showGraphic){
-    document.querySelectorAll('.mock-note-item.active').forEach(function(n){ n.classList.remove('active'); });
-    el.classList.add('active');
+    // document.querySelectorAll('.mock-note-item.active').forEach(function(n){ n.classList.remove('active'); });
+ // el.classList.add('active');
     document.getElementById('mock-content-title').textContent = title;
     document.getElementById('mock-content-sub').textContent = body;
     document.getElementById('mock-content-graphic').style.display = showGraphic ? 'flex' : 'none';
